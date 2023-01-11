@@ -1,0 +1,94 @@
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  
+ 
+}
+
+*,
+*::before,
+::before {
+  box-sizing: inherit;
+  outline: none;
+  font-family: 'M PLUS Rounded 1c', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+.main {
+  /* width: 100vw; */
+}
+
+p {
+  /* margin-bottom: 1rem; */
+  line-height: 1.4rem;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,h6 {
+  /* margin: 3rem 0 1.38rem; */
+  /* font-weight: 400; */
+  line-height: 1.2;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+ 
+}
+
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #FFB100;
+}
+
+::selection {
+  color: white;
+  background: #FFB100;
+}
+
+
+.results-container {
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ min-height: 90vh;
+
+}
+.results-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 0px;
+  align-items: center;
+}
+
+
+.singlecourse {
+  height: 2000px;
+padding-top: 200px;
+color: black;
+}
+
+.chaptersdiv {
+  /* background-color: green; */
+  /* height: 500px; */
+  /* width: 100%; */
+  color: white;
+}

@@ -1,0 +1,167 @@
+
+.auth .category {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    align-items: center
+}
+
+ .auth .category select {
+    cursor: pointer;
+    background-color: var(--main-color);
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 20px;
+    padding: 5px
+}
+
+ .auth img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+ .auth .info {
+    width: 25%;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column
+}
+
+ .auth .info img {
+    width: 400px
+}
+
+ .auth .info .description {
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px
+}
+
+ .auth .info .buttons {
+    display: flex
+}
+
+ .auth .info .buttons button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+ .auth .info .buttons button.play {
+    background-color: #fff;
+    color: var(--main-color)
+}
+
+ .auth .info .buttons button.more {
+    background-color: gray;
+    color: #fff
+}
+
+.auth .info .buttons button span {
+    margin-left: 10px
+}
+
+
+
+.navbar {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%)
+}
+
+.navbar.scrolled {
+    background: var(--main-color)
+}
+
+.navbar .container {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px
+}
+
+ .left {
+    display: flex;
+    align-items: center
+}
+
+ .left img {
+    height: 25px;
+    margin-right: 40px
+}
+
+ .left span {
+    margin-right: 20px;
+    cursor: pointer
+}
+
+ .right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ .right .icon {
+    /* margin: 0px 5px; */
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+ .right img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    cursor: pointer
+}
+
+ .right .profile .options {
+    display: none;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px;
+    color: rgb(43, 39, 40) !important;
+  
+}
+
+ .right .profile span {
+    padding: 10px;
+    cursor: pointer
+}
+
+ .right .profile:hover .options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 90px;
+    top: 55px;
+    z-index: 10000;
+}
+
+/*# sourceMappingURL=navbar.css.map */
+/*# sourceMappingURL=featured.css.map */

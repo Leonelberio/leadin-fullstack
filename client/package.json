@@ -1,0 +1,49 @@
+{
+  "name": "leadin-africa",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://leadin-fullstack.vercel.app/",
+
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.4",
+    "@next/font": "^13.0.6",
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "framer-motion": "^7.10.2",
+    "grunt": "^1.5.3",
+    "grunt-cli": "^1.4.3",
+    "next": "^13.0.2",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hover-video-player": "^9.7.1",
+    "react-icons": "^4.4.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-player": "^2.10.1",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-tabs": "^5.1.0",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.5",
+    "styled-system": "^5.1.5",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.3.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "video.js": "^7.20.3"
+  }
+}

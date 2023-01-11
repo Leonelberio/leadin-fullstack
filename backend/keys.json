@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "leadin-africa",
+  "private_key_id": "180f311e57d6104fc89bc9011da4bf8bad5156cd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCxcr5aNgNUuiYz\n67fQBNv/kady22QwdAmoRMG/TmSbuoaGe7e1x7Nz7mFsSSRUElEoUwQqdfKL52Yd\ns7CdE2M01VzbXRX3lMAOcNcFJPDNlZmmAybS2ziIRKAcZFl8OMZEyRXxPTmDUNlh\nM1jBmL/s7k9/09NDnKqSAowCMh1dKD/3wol5ggmmIA6fb70sdZZUJODja3utiB1W\nnMU5We9jGwbk1S68gWYE6TmBnhE9LTI4ZP75+akG8fOlFbnEbJdIkalC9pjWBfxD\nQugO80AUwsoiQ9f/4I7eYSPnVTg8mOA/VYoDPaf9zEkeFlkCjwwYxlUPltnXCGPQ\nNW1leFFLAgMBAAECggEAMrLScQrSm9ANnzL/Uwc4ZgYS/g1xzCgzJCj05Dg9JYM+\n8UiCvgSfIIXgvuQM5ZpQJsHFRG5rjI5iDiVrVg2WgB9fxusLHjAZSWbzACzEQjC2\ndAidfIwW1FQrHMGNEaFVAI0lYEX6Wyrr2MonVzTRzRtvilmWmFA4KbxhjTUNT7J4\n/Y4y84ZuVcLFKEOvuz2AlYR06HYVMx8gYHvr0UYBM8RqV7wUJZtgFFKxhqveWSaf\nVVgogBGpyjbwfBz0wa0ntAMimjMwqDBa4+F5j9erxNlP2DRpOemIH+VCQSZeWfq5\nIrSxRTcYV8ZisStguTpiNhzI5F/JrUXRvYnmkfngtQKBgQDV3Wg4KNUsq3RRjPaI\nRTNcyXMxVLObPQJulvGYOrfeDbYMewIBCM0fiO6p2mp2CAdjmjVkxIGbjW0k/Xat\nL/heQBTAfT1cRolAat2wHG+rqI93cwU35Mm7DfsfLiTSxH2OlpdOE2zHCaTgZuxN\nJabg3vVmhv6iQyPlE53sYSstRwKBgQDUaJu7Gv55DGbjSqPO9aprwiyY8DvBAUau\nsUgeV7AG7q63WbvwF/6Lp5omFlJVa0L2c5dXGpu0QNvzCrkaT8D3B5Z5ZXEefaGs\nms4hgCGnL+Y7Lqna88Pi2qrvw/z56girPRQ7GqNkNLysOgmt9LHRIn3sL8lAMnBp\n09GIcT1t3QKBgATUYy4hfe7sUEwnKsoZBffqdLeAei3fStbEgeA2M0DIfnv5qynq\n0PcNWJZtYEoaFFCjguErruGcaAKV1sBCfRFj0RQnv+L9lMvnneoEOmFeBR9lcZC5\nkfSvdCRYHmzEEzHNJM2WkrZL+XU33c5AM2yQnGocUlPHwF/D+aUE7LyxAoGAJn5y\nwpzowz05JDXxq98frHm7JVhcK+U0TxJ31G/lycvVxAqyIZfnnJ2aNQ7UiwBuWUWn\nhrSexTL/6XLnCtqrSNmKLqPwtSrlcud3NeEHuEnY+p7BT5nfxSwF0H//R7dfLNFb\n6j4woEdibf/yoyD2XMVYdsZOPaEmeDdYANcs380CgYBC2w8qev4i/sDVb1ogbba6\nBhFPumQLN++U+IiVPIsV39tAmfrQVnoV9MCCk/jKeEGL4Lujd6FsnLjpaoqRORzK\nzmvYFMb3FIqK2v7ncx3d182te/HPUjimIVYd2OzGEMmtPiBZB8K0wU3gbz7dDhZa\na9suIJcxwMUGj51ZOHGUzg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8998r@leadin-africa.iam.gserviceaccount.com",
+  "client_id": "101044510009159681134",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8998r%40leadin-africa.iam.gserviceaccount.com"
+}
