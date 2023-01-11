@@ -109,7 +109,7 @@ flex:2.5;
 `;
 
 export const CoursesContentWrapper = styled.div`
-  background-image: url("/assets/Images/motif.png");
+  background-image: url("/assets/Images/motif.webp");
   background-repeat: repeat;
   background-size: contain;
   display: flex;

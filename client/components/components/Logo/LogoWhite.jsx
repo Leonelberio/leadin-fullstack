@@ -1,6 +1,6 @@
 import React from "react";
 import { LogoContainer } from "./Logo.style";
-import logo from "../../../public/assets/Images/LogoLeadIn-white.png";
+import logo from "../../../public/assets/Images/LogoLeadIn-white.webp";
 
 import Image from "next/image";
 import Link from "next/link";

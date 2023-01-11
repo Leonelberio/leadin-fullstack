@@ -4,7 +4,7 @@ import Image from "next/image";
 function Pattern() {
   return (
     <Image
-      src="/assets/Images/Tribal.png"
+      src="/assets/Images/Tribal.webp"
       width="100px"
       height="100px"
       alt="Tribal"

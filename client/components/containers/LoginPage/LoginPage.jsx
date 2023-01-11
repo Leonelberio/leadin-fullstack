@@ -22,7 +22,7 @@ function LoginPage() {
         <LoginSignupPageLogoContainer>
           <Link href="/">
             <Image
-              src="/assets/Images/LogoLeadIn.png"
+              src="/assets/Images/LogoLeadIn.webp"
               height={50}
               width={100}
               alt="Logo"

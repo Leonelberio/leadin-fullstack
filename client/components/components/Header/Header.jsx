@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import logo from '../../../public/assets/Images/logoBlanc.png';
+import logo from '../../../public/assets/Images/logoBlanc.webp';
 
 import { ArrowDropDown } from "@mui/icons-material";
 import Button from "../Button/Button";

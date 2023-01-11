@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import StudentsImage from "../../assets/Images/Tribal.jpg";
+
 
 export const SingleCourseContainer = styled.div`
   width: 100vw;

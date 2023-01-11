@@ -21,7 +21,7 @@ export const LoadingIndicator = styled.div`
 
   &:after {
     content: "";
-    background-image: url(https://assets.nflxext.com/en_us/pages/wiplayer/site-spinner.png);
+    background-image: url(https://assets.nflxext.com/en_us/pages/wiplayer/site-spinner.webp);
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 50%;

@@ -28,7 +28,7 @@ export const HeroContainer = styled.div`
   height: 90%;
   margin-top: 5rem;
   background-color: #FFB100;
-  background-image: url("/assets/Images/motifBlanc.png");
+  background-image: url("/assets/Images/motifBlanc.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -146,24 +146,6 @@ export const DiscoveringWrapper = styled.div`
   align-items: center;
   padding: 4rem 1rem 1rem 1rem;
 `;
-
-
-
-// export const AdContainer = styled.div`
-//   width: 80%;
-//   min-height: 25rem;
-
-//   border-radius: 25px;
-
-//   /* background-image: url("/assets/Images/Africavi.jpg");
-//   background-repeat: no-repeat;
-//   background-size: cover; */
-//   box-shadow: 0px 4px 12px 9px rgba(0, 0, 0, 0.09);
-//   -webkit-box-shadow: 0px 4px 12px 9px rgba(0, 0, 0, 0.09);
-//   -moz-box-shadow: 0px 4px 12px 9px rgba(0, 0, 0, 0.09);
-//   /* object-fit: cover; */
-
-  
 
 // `;
 export const AdContainer = styled.div`
