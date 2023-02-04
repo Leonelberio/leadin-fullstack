@@ -4,6 +4,8 @@ const nextConfig = {
   swcMinify: true,
   env: {
     baseUrl : "https://leadinbackend.onrender.com" 
+    // baseUrl : "http://localhost:8080" 
+
   },
   // experimental:{appDir: true}
   // experimental: {
