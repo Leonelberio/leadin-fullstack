@@ -77,7 +77,7 @@ export default function Header() {
         {isAuthenticated && (
           <LoginButtonContainer>
             <div className="right">
-            <p>Salut {userInfo.firstName} </p>
+            <p>Salut {userInfo.lastName} </p>
               <img
                 src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgn&dpr=2&w=500"
                 alt="Profile"

@@ -61,7 +61,7 @@ function Hero() {
             {isAuthenticated && (
               <>
                 <H1>
-                  {userInfo.firstName}, enfin te revoilà! <br />
+                  {userInfo.lastName}, enfin te revoilà! <br />
                   Ça nous fait toujours plaisir de te voir{" "}
                 </H1>
                 <Button
