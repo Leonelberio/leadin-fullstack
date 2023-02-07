@@ -1,33 +1,3 @@
-// const nodemailer = require("nodemailer");
-
-// module.exports = async (email, subject, text) => {
-// 	try {
-// 		const transporter = nodemailer.createTransport({
-// 			host: process.env.HOST,
-// 			service: process.env.SERVICE,
-// 			port: Number(process.env.EMAIL_PORT),
-// 			secure: Boolean(process.env.SECURE),
-// 			auth: {
-// 				user: process.env.USER,
-// 				pass: process.env.PASS,
-// 			},
-// 		});
-// 		await transporter.sendMail({
-// 			from: process.env.USER,
-// 			to: email,
-// 			subject: subject,
-// 			text: text,
-// 		});
-// 		console.log("email de confiramtion a ete envoyer avec success");
-// 	} catch (error) {
-// 		console.log("Verifiez vos informations");
-// 		console.log(error);
-// 		return error;
-// 	}
-// };
-
-
-
 const nodemailer = require("nodemailer");
 
 module.exports = async (email, subject, text) => {
@@ -38,17 +8,17 @@ module.exports = async (email, subject, text) => {
 			//port: Number(process.env.EMAIL_PORT),
 			//secure: Boolean(process.env.SECURE),
 			auth: {
-				user: "kkokou744@gmail.com",
-				pass: "jumqcxilgdyunggr",
+				user: "leadin63@gmail.com",
+				pass: "kzbgubylfwngvygv",
 			},
 		});
 		await transporter.sendMail({
-			from: "kkokou744@gmail.com",
+			from: "leadin63@gmail.com",
 			to: email,
 			subject: subject,
 			text: text,
 		});
-		console.log("email de confiramtion a ete envoyer avec success");
+		console.log("Email de confiramtion a ete envoyer dans votre boite mail. Veuillez cliquer sur le lien pour activer votre      compte");
 	} catch (error) {
 		console.log("Verifiez vos informations");
 		console.log(error);
