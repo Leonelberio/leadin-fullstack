@@ -55,22 +55,7 @@ function Signup() {
 
         <FormWrapper autoComplete="off" onSubmit={(e) => handleSubmit(e)}>
           {/* <Row> */}
-          <Input
-            type="text"
-            placeholder="Nom"
-            value={userInformations.firstName}
-            name="firstName"
-            // bg="white"
-            required
-            p={[15]}
-            autoComplete="false"
-            onChange={(e) =>
-              setUserInformations({
-                ...userInformations,
-                firstName: e.target.value
-              })
-            }
-          />
+         
           <Input
             type="text"
             placeholder="Prenoms"
@@ -84,6 +69,23 @@ function Signup() {
               setUserInformations({
                 ...userInformations,
                 lastName: e.target.value
+              })
+            }
+          />
+
+<Input
+            type="text"
+            placeholder="Nom"
+            value={userInformations.firstName}
+            name="firstName"
+            // bg="white"
+            required
+            p={[15]}
+            autoComplete="false"
+            onChange={(e) =>
+              setUserInformations({
+                ...userInformations,
+                firstName: e.target.value
               })
             }
           />
