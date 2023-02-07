@@ -86,8 +86,8 @@ export default function Header() {
               <div className="profile">
                 <ArrowDropDown className="icon" />
                 <div className="options">
-                  <span>Parametres</span>
-                  <span>Espace Enseignants</span>
+                  {/* <span>Parametres</span>
+                  <span>Espace Enseignants</span> */}
 
                   <span onClick={handleLogout}>Déconnection</span>
                 </div>

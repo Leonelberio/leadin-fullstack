@@ -18,7 +18,7 @@ module.exports = async (email, subject, text) => {
 			subject: subject,
 			text: text,
 		});
-		console.log("Email de confiramtion a ete envoyer dans votre boite mail. Veuillez cliquer sur le lien pour activer votre      compte");
+		console.log("Email de confirmation a ete envoyer dans votre boite mail. Veuillez cliquer sur le lien pour activer votre      compte");
 	} catch (error) {
 		console.log("Verifiez vos informations");
 		console.log(error);
