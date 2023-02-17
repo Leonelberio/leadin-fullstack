@@ -8,17 +8,17 @@ module.exports = async (email, subject, text) => {
 			//port: Number(process.env.EMAIL_PORT),
 			//secure: Boolean(process.env.SECURE),
 			auth: {
-				user: "leadin63@gmail.com",
-				pass: "kzbgubylfwngvygv",
+				user: "leadin32@gmail.com",
+				pass: "ixeirpajeaxatngo",
 			},
 		});
 		await transporter.sendMail({
-			from: "leadin63@gmail.com",
+			from: "leadin32@gmail.com",
 			to: email,
 			subject: subject,
 			text: text,
 		});
-		console.log("Email de confirmation a ete envoyer dans votre boite mail. Veuillez cliquer sur le lien pour activer votre      compte");
+		console.log("email de confiramtion a ete envoyer avec success");
 	} catch (error) {
 		console.log("Verifiez vos informations");
 		console.log(error);
