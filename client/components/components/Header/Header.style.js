@@ -147,7 +147,7 @@ export const NavSearchContainer = styled.div`
  `}
 `;
 export const LoginButtonContainer = styled.div`
-  display: none; 
+  /* display: none;  */
 
   ${({ theme }) => theme.desktop`
   display: flex; 
